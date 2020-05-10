@@ -36,7 +36,7 @@ print("Generating media...")
 # layout = go.Layout(legend={'traceorder': 'normal'}
 # fig = go.Figure(data=[go.Pie(labels=x_axis, values=[two_c, three_c, four_c])])
 fig = go.Figure()
-fig.add_trace(go.Pie(labels=x_axis, values=[two_c, three_c, four_c]))
+fig.add_trace(go.Pie(labels=x_axis, values=[two_c, three_c, four_c], sort=False))
 fig.update_layout(
     title=f"Sunstone Simulation - {sims} times",
 
