@@ -12,10 +12,10 @@ x_axis = ["2 Crystal", "3 Crystal", "4 Crystal"]
 
 # Function rolls 4 crystals.
 def rolls():
-    roll1 = random.randint(25, 65)
-    roll2 = random.randint(25, 65)
-    roll3 = random.randint(25, 65)
-    roll4 = random.randint(25, 65)
+    roll1 = random.randint(25, 55)
+    roll2 = random.randint(25, 55)
+    roll3 = random.randint(25, 55)
+    roll4 = random.randint(25, 55)
     return roll1, roll2, roll3, roll4
 
 

@@ -30,4 +30,4 @@ else:
     print(f"Crystal 2: {b}")
     print(f"Crystal 3: {c}")
     print(f"Crystal 4: {d}")
-    print("4 crystal")
+    print("4 crystal!")
